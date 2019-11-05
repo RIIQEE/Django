@@ -1,0 +1,87 @@
+{%extends 'base.html'%}
+
+{% block body %}
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  
+  
+  
+
+    
+<style type="text/css">
+  .content {
+      
+    border-radius: 6px;
+    
+}
+table{
+	
+  position:absolute;
+  top:40%;
+  left: 28%;
+  margin-left: -150px;
+  margin-top: -100px;
+}
+  td {
+    margin:5px;
+    border-radius: 6px;
+    border: 1px solid #fbcc34;
+}
+#bt {
+  background-image: linear-gradient(45deg, rgba(251,255,52,.2) 30%, rgba(255,173,54,.5) 100%) ;
+    transform: translateZ(30px) rotateY(4deg);
+}
+.tt{
+	text-align: left;
+	color:#ddd;
+  font-family: Alegreya Sans;
+  text-shadow: 1px 1px 5px #555;
+}
+</style>
+
+
+</head>
+
+<body>
+  <h1 class="tt">实&nbsp;例</h1>
+    <div class="content" >
+    <table width="1200" height="120" border="0"  bordercolor= "#fbcc34"  cellspacing="6"  style="filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);">
+     <tbody>
+        <tr style="color: #fff;border-bottom-width: 0;  text-align: center; ">
+                <td id="bt">实例名称</td>
+                <td id="bt">映像名称</td>
+                <td id="bt">IP地址</td>
+                <td id="bt">大小</td>
+                <td id="bt">状态</td>
+                <td id="bt">可用域</td>
+                <td id="bt">电源状态</td>
+                <td id="bt">创建时间</td>
+                <td id="bt">Actions</td>
+            </tr>
+           
+            <tr style="color: #fff;border-bottom-width: 0;  text-align: center; ">
+              <td class="td">ff</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd</td>
+              <td class="td">dd </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+</body>
+</html>
+
+
+
+{% endblock %} 

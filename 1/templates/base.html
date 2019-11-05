@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>hello</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+      
+        <div>
+            {% include 'nav.html' %}
+        </div>
+        <div>
+        {% block body %}
+        
+        {% endblock %}
+        </div>
+        <div>
+        {% block footer %}
+        
+        {% endblock %}
+        </div>
+    </body>
+</html>
